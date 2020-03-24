@@ -4,7 +4,7 @@ Connect 4 in C.
 
 # Start the game
 
-To start write ```make``` in console.
+To compile game write ```make``` in console, then start the game typing ```./Connect4```
 
 ## How to play
 
