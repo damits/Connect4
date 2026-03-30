@@ -1,21 +1,33 @@
-# Connect 4
+# Connect 4 🎯
 
-Connect 4 in C.
+Classic Connect 4 implemented in C, playable from terminal. 🧠
 
-# Start the game
+## Start the game 🚀
 
-To compile game write ```make``` in console, then start the game typing ```./Connect4```
+Compile the game:
 
-## How to play
+```bash
+make
+```
 
-Using your terminal, choose to play with a friend or with computer then take turns dropping one colored disc from the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the lowest available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own discs.
+Run it:
 
-## Computer AI
+```bash
+./Connect4
+```
 
-The computer opponent now uses a simple decision strategy instead of pure randomness:
+## How to play 🎮
 
-- It plays a winning move if available.
-- It blocks your immediate winning move.
-- It prefers central columns (better long-term control of the board).
+Choose between local multiplayer and vs computer mode, then take turns dropping a token into one of the 7 columns.
+Tokens fall to the lowest free row in the selected column.
+The first player to connect 4 tokens (horizontal, vertical or diagonal) wins. 🏆
 
-This keeps matches fast while making the single-player mode noticeably smarter.
+## Computer AI 🤖
+
+The computer uses a practical strategy (not just random):
+
+- Play an immediate winning move when available.
+- Block your immediate winning move.
+- Prefer central columns for stronger board control.
+
+This keeps the game simple but noticeably smarter in single-player mode. 📈
